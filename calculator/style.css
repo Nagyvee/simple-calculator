@@ -1,0 +1,95 @@
+body{
+    margin: 0;
+    padding: 3em;
+    padding-left: 30%;
+    height: 100vh;
+    justify-items: center;
+    font-family: 'Times New Roman', serif;
+    background-color: rgb(255, 255, 255);
+}
+
+.container{
+    width: 20em;
+    min-height: 32em ;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: gray;
+}
+.container input{
+    width: 90%;
+    margin:4% 3% 0;
+    height: 4.5em;
+    margin-bottom: 1em;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.872);
+    border-radius: 6px;
+    overflow: hidden;
+    color: white;
+    font-size: 24px;
+    padding-left: 10px;
+    letter-spacing: 3px;
+}
+
+span{
+    color: rgba(13, 81, 140, 0.571);
+    margin-top: 5px;
+    margin-left: 4em;
+    letter-spacing: 13px;
+}
+
+.keys{
+    display: grid;
+    grid-template-columns: 21% 21% 21% 21%;
+    grid-gap: 4%;
+    margin-top: 1em;
+    margin-left: 4%;
+}
+
+.keys button{
+    height: 3.4em;
+    border-radius: 20px;
+    background-color: black ;
+    color: white;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+button:hover{
+    background-color: rgba(0, 0, 0, 0.646);
+}
+
+button:active{
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+.keys .operator{
+    background-color: rgba(255, 166, 0, 0.832);
+    color: white;
+}
+
+.keys .operator:hover{
+    background-color: rgb(255, 165, 0);
+}
+
+.keys .operator:active{
+    background-color: aliceblue;
+}
+
+.keys .calculate{
+    background-color:  rgba(11, 11, 246, 0.665);
+    border-radius: 10px;
+    height: 3em;
+    margin-top: 5px;
+}
+
+.keys .calculate:hover{
+    background-color: blue;
+}
+
+.keys .calculate:active{
+    background-color: aliceblue;
+    color: black;
+}
+
